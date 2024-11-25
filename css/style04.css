@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction:column;
+}
+
+
+header{
+    background-color: orange;
+    border: 3px black solid;
+    margin-bottom: 20px;
+    flex-basis: 200px;
+margin-top: 10px;}
+
+
+.aside{ 
+    border: 3px black solid;
+    flex-basis: 75%;
+    margin-left: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(67, 180, 142);
+}
+.main{
+    border: 3px black solid;
+    flex-basis: 25%;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+
+
+    
+section {
+    
+    
+    margin-bottom: 20px;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+footer{
+    background-color: rgb(58, 156, 212);
+    border: 3px black solid;
+    margin-bottom: 10px;
+    flex-basis: 200px;
+    
+    
+}

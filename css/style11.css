@@ -1,0 +1,339 @@
+body{
+    display: flex;
+    flex-direction:column;
+}
+
+
+header{
+    background-color: orange;
+    border: 3px rgb(55, 55, 142) solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    
+
+ }
+
+    .box1{
+         background-color: blue;
+         width: 85px;
+         height: 85px;
+         border: 3px solid black;
+         display: flex;
+        margin-left: 15px;
+        
+
+    }
+
+    .box2{
+        margin-right: 30px;
+        font-size: xx-large;
+        font-weight: bold;
+        color: black;
+
+        
+
+    }
+
+
+
+
+
+
+
+
+    .menu{
+        border: 2px red solid;
+        display: inline-flex;
+        width: 40%;
+        height: 65px;
+        padding: 10px;
+        justify-content: space-between;
+
+    }
+
+
+
+
+
+
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    
+    height: 35px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+
+}
+
+
+    .nav1{
+        background-color: palevioletred;
+        border: 3px  black solid;
+        height: 40px;
+        margin-right: 25px;
+        flex-basis: 10%;
+
+    }
+     
+    .nav2{background-color: palevioletred;
+        border: 3px  black solid;
+        height: 40px;
+        margin-right: 25px;
+        flex-basis: 10%;
+
+    }
+    .nav3{
+        background-color: palevioletred;
+        border: 3px black solid;
+        height: 40px;
+        margin-right: 25px;
+        flex-basis: 10%;
+    }
+
+    .nav4{
+        background-color: palevioletred;
+        border: 3px  black solid;
+        height: 40px;
+        margin-left: -;
+        flex-basis: 10%;
+    }
+
+
+
+.aside{ 
+    border: 2px black solid;
+    flex-basis: 85%;
+    margin-left: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(161, 161, 236);
+
+    display: flex;
+    padding: 40px;
+    width: 60%;
+    align-items:center;
+    width: auto;
+    
+}
+
+.text2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    background-color: white;
+    margin:auto ;
+
+}
+
+
+.text3{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top:0px;
+    font-size: 16px;
+    background-color: white;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.image{
+    display: flex;
+    flex-basis: 25%;
+    border-radius: 50%;
+
+    background-position:center;
+    text-align: center;
+    
+    height: 250px;
+    margin: auto;
+    background-size: 50%;
+    padding: 30px;
+    margin-bottom: 50px;
+    flex-shrink: 0;
+    justify-content:space-between;
+
+}
+
+
+.text1{
+    display: flex;
+    flex-basis: 70%;
+
+    background-color: white;
+    align-items: center;
+    text-align:start ;
+    font-size:medium;
+    overflow: hidden;
+    flex-direction:column;
+
+    height: 200px;
+    margin: auto;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+
+.main{
+    border: 2px black solid;
+    flex-basis: 15%;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+    display: flex;
+
+    
+    
+}
+
+
+.titlelist{ 
+     display:flex;
+     flex-direction: column;
+     height: 400px;
+    justify-content: space-around;
+     background-color: white;
+    box-shadow:2px 5px 5px 0px;
+     width: 300px;
+     margin-left: 10px;
+     margin-right: 30px;
+     margin-top: 20px;
+     
+
+}
+
+.title{
+    font-size: larger;
+    color: rgb(248, 31, 71);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    font-size: x-large;
+} 
+
+
+
+
+.des1{
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+
+}
+
+.des{
+    border-bottom:3px black solid;
+    font-size:larger;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 15px;
+    
+}
+
+
+
+.midleSection {
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    ;
+}
+
+
+
+footer{
+    background-color: rgb(59, 59, 237);
+    border: 2px black solid;
+    margin-bottom: 30px;
+    flex-basis: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    align-items:;
+    
+}
+
+.box3{
+    border: 2px black solid;
+    background-color: blue;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:800;
+    font-size:x-large;
+    padding: -;
+    display: flex;
+    color: azure;
+    
+} 
+
+
+.flex1{
+    border: 2px black solid;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px;
+    flex-basis: 50%;
+    background-color:rgb(163, 201, 245);
+    margin-right: 50px;
+    
+}
+
+.flex2{
+    border: 2px black solid;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    flex-basis: 50%;
+    background-color:rgb(67, 205, 205);
+    display: flex;
+    align-items:center;
+
+
+}
+
+.flex3{
+    border: 2px black solid;
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+    flex-basis: 50%;
+    background-color:rgb(67,205,205);
+    align-items: center;
+    display: flex;
+    
+
+}
+    
+
+
+.flex4{
+
+border: 2px rgb(8, 8, 8) solid;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 20px;
+    flex-basis: 50%;
+    background-color:rgb(67, 205, 205);
+    align-items: center;
+    
+    
+    
+    
+}
+

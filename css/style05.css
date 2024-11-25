@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    flex-direction:column;
+}
+
+
+header{
+    background-color:orange;
+    border: 3px rgb(55, 55, 142) solid;
+    margin-bottom: 30px;
+    flex-basis: 100px;
+    }
+
+
+    .menu{
+        border: 3px red solid;
+        display: inline-flex;
+        width: 40%;
+        height: 65px;
+        padding: 10px;
+        justify-content: space-between;
+
+    }
+
+
+
+
+
+
+
+.navigation{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 65%;
+    
+
+   
+    
+
+}
+    .nav1{
+        background-color: white;
+        border: 3px solid;
+        height: 50px;
+        margin-bottom: 30px;
+        flex-basis: 20%;
+        background-color: palevioletred;
+    }
+     
+    .nav2{background-color: white;
+        border: 3px solid;
+        height: 50px;
+        margin-bottom: 30px;
+        flex-basis: 20%;
+        background-color: palevioletred;
+
+    }
+    .nav3{
+        background-color: white;
+        border: 3px solid;
+        height: 50px;
+        margin-bottom: 20px;
+        flex-basis: 20%;
+        background-color: palevioletred;
+    }
+
+    .nav4{
+        background-color: white;
+        border: 3px solid;
+        height: 50px;
+        margin-bottom: 30px;
+        flex-basis: 20%;
+        background-color: palevioletred;
+    }
+
+
+
+.aside{ 
+    border: 3px black solid;
+    flex-basis: 85%;
+    margin-left: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(100, 178, 152);
+}
+.main{
+    border: 3px black solid;
+    flex-basis: 15%;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+
+
+    
+section {
+    
+    
+    margin-bottom: 30px;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+footer{
+    background-color: rgb(110, 110, 236);
+    border: 3px black solid;
+    margin-bottom: 20px;
+    flex-basis: 200px;
+}

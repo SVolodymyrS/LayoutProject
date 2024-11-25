@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: orange;
+    border: 3px rgb(55, 55, 142) solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.box1 {
+    background-color: blue;
+    width: 85px;
+    height: 85px;
+    border: 3px solid rgb(14, 14, 15);
+    margin-left: 15px;
+}
+
+.box2 {
+
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    border: 3px orange solid;
+    flex-basis: auto;
+    margin-right: 15px;
+
+
+}
+
+
+
+
+.menu {
+    border: 2px red solid;
+    display: inline-flex;
+    width: 40%;
+    height: 65px;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 35px;
+    margin-bottom: 40px;
+    
+    
+
+}
+
+
+.nav1 {
+    background-color: white;
+    border: 3px black solid;
+    height: 40px;
+    margin-right: 25px;
+    flex-basis: 10%;
+    background-color: palevioletred;
+}
+
+.nav2 {
+    background-color: white;
+    border: 3px black solid;
+    height: 40px;
+    margin-right: 25px;
+    flex-basis: 10%;
+    background-color: palevioletred;
+
+}
+
+.nav3 {
+    background-color: white;
+    border: 3px black solid;
+    height: 40px;
+    margin-right: 25px;
+    flex-basis: 10%;
+    background-color: palevioletred;
+}
+
+.nav4 {
+    background-color: white;
+    border: 3px black solid;
+    height: 40px;
+    margin-left: -;
+    flex-basis: 10%;
+    background-color: palevioletred;
+}
+
+
+
+.aside {
+    border: 3px black solid;
+    flex-basis: 85%;
+    margin-left: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(77, 207, 164);
+}
+
+.main {
+    border: 3px black solid;
+    flex-basis: 15%;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+
+
+
+.midleSection {
+
+
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.footer {
+    background-color: rgb(109, 109, 236);
+    border: 3px black solid;
+    margin-bottom: 20px;
+    flex-basis: 200px;
+    margin-top: 30px;
+    
+}

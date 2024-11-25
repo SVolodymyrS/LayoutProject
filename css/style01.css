@@ -1,0 +1,44 @@
+.box1 {
+
+    border{
+        border: 2px black solid;
+        background-color: blue;
+        display:flex;
+        
+        
+    }
+
+
+        .header {
+            background-color: yellow;
+            border: 2px black solid;
+            margin-top: 10px;
+            padding: 120px;
+            text-align: start;
+            justify-content: flex-start;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+
+        .main {
+            background-color: gray;
+            border: 2px black solid;
+            flex-basis: 200px;
+            text-align: center;
+            padding: 120px;
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .footer {
+            background-color:blue;
+            border: 2px black solid;
+            flex-basis: 200px;
+            margin-bottom: 10px;
+            padding: 120px;
+            justify-content: flex-start;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+    

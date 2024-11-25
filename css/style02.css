@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction:column;
+}
+
+
+.header{
+    background-color: yellow;
+    border: 3px black solid;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    flex-basis: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.main{
+    background-color: blueviolet;
+    border: 3px black solid;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    flex-basis: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+
+}
+
+.footer{
+    background-color: blue;
+    border: 3px black solid;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+    flex-basis: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

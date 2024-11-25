@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    
+    height: 200px;
+}
+
+.sac-lay{
+    flex-basis: 45%;
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+h1,p{
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    border: 2px black solid;
+    margin: 0px;
+    padding: 1 px;
+    background-color: blueviolet;
+}
